@@ -1,6 +1,5 @@
 import torch
 from torch import nn
-import copy
 from violet.modeling.transformer.containers import ModuleList
 from violet.modeling.transformer.captioning_model import CaptioningModel
 from transformers import AutoProcessor, CLIPVisionModelWithProjection
